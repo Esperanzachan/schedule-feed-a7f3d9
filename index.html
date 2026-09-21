@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>日程订阅地址</title>
+<style>
+  body{margin:0;padding:40px 20px;background:#FAFAF8;color:#2C2C2A;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    font-size:15px;line-height:1.7}
+  .wrap{max-width:620px;margin:0 auto}
+  h1{font-size:20px;font-weight:500;margin:0 0 6px}
+  .sub{color:#5F5E5A;font-size:13px;margin-bottom:28px}
+  .card{background:#fff;border:1px solid #E4E2DC;border-radius:12px;padding:20px 22px;margin-bottom:16px}
+  h2{font-size:15px;font-weight:500;margin:0 0 12px}
+  .url{background:#F1EFE8;border-radius:8px;padding:12px 14px;font-family:ui-monospace,Consolas,monospace;
+    font-size:13px;word-break:break-all;color:#0C447C;border:1px solid #E4E2DC}
+  ol{margin:0;padding-left:22px}
+  li{margin-bottom:8px}
+  .note{background:#FFFBF0;border:1px solid #FAC775;border-radius:8px;padding:12px 14px;
+    font-size:13px;color:#633806}
+  kbd{background:#F1EFE8;border:1px solid #D3D1C7;border-radius:4px;padding:1px 6px;font-size:12px;
+    font-family:ui-monospace,Consolas,monospace}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>日程订阅地址</h1>
+  <div class="sub">这个页面只是用来放日历文件的，不用收藏。真正要保存的是下面的订阅地址。</div>
+
+  <div class="card">
+    <h2>你的订阅地址</h2>
+    <div class="url" id="u">https://raw.githubusercontent.com/Esperanzachan/schedule-feed-a7f3d9/main/calendar.ics</div>
+  </div>
+
+  <div class="card">
+    <h2>手机上怎么订阅</h2>
+    <ol>
+      <li>打开手机自带的<b>日历</b> App</li>
+      <li>找到「添加日历 / 订阅日历 / 日历账户」</li>
+      <li>选择<b>通过网址订阅</b></li>
+      <li>粘贴上面的订阅地址，保存</li>
+      <li>在日历设置里给这个日历<b>打开通知和声音</b></li>
+    </ol>
+  </div>
+
+  <div class="note">
+    提醒：日历是定时去网上拉取更新的，不是实时的。手机可能几小时才刷新一次。
+    所以要「到点响铃」没问题，但临时改的日程不会立刻同步到手机上。
+  </div>
+</div>
+</body>
+</html>
